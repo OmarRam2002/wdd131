@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fugaz One", sans-serif;
+}
+
+header {
+    background-color: #FBB7C0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    box-shadow: 0 0 30px #333;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #B89685;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+nav a {
+    display: none;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav a:hover {
+    color: #e1eae5;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+img {
+    width: 70%;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+#menu {
+    font-size: 1.5rem;
+    background-color: #FBB7C0;
+    border: 0;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❎";
+}
+
+.open a {
+    display: block;
+}
+
+footer {
+    padding-top: 3rem;
+    background-color: B89685;
+    text-align: center;
+    height: 150px;
+}
