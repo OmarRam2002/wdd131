@@ -8,11 +8,59 @@
     <meta name="description"
         content="This webpage shows one of the places that I would wan to visit one day. This place is Back Home Guatemala">
     <meta name="author" content="Omar Ramirez">
+    <link rel="stylesheet" href="styles/place-small.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <script src="scripts/place.js" defer></script>
 
 </head>
 
 <body>
+    <header>
+        <h1>Semuc Shampey</h1>
+    </header>
+    <main>
 
+        <div class="hero">
+
+            <picture>
+                <source srcset="images/hero-large-place-2.webp" media="(min-width: 700px)">
+                <img src="images/hero-small-place-2.webp" alt="Temple name and location">
+
+            </picture>
+
+            <div class="data">
+                <h2>Data</h2>
+                <ul>
+                    <li><span>Area:</span> 6.618</li>
+                    <li><span>Population:</span> No permanent population</li>
+                    <li><span>Capital:</span> Guatemlaa City</li>
+                    <li><span>Lenguages:</span> Q'eqchi and Spanish</li>
+                    <li><span>Currency:</span> Quetzal</li>
+                    <li><span>Time Zone:</span> UTC -6</li>
+                    <li><span>Calling Code:</span> +502</li>
+                    <li><span>Internet TLD:</span> .GT</li>
+                </ul>
+            </div>
+            <div class="weather">
+                <h2>Weather </h2>
+                <img src="images/weather.png" alt="weather logo">
+                <ul>
+                    <li><span>Tempearture:</span> 82°F</li>
+                    <li><span>Condition:</span> Light thunderstorms and rain</li>
+                    <li><span>Wind:</span> 2 mph</li>
+                    <li id="windchill"><span>Wind Chill:</span> </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <p> ©<span id="currentyear"></span> ✎ Omar Ramirez ✎ Guatemala</p>
+        <p id="lastmodified"></p>
+    </footer>
 </body>
 
 </html>

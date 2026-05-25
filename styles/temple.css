@@ -19,6 +19,10 @@ footer {
     background-color: #B89685;
 }
 
+span {
+    font-weight: bold;
+}
+
 
 nav {
     display: flex;

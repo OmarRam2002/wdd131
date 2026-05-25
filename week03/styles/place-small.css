@@ -1,0 +1,70 @@
+:root {
+    --primary-color: #B28C39;
+    --secondary-color: #202D0D;
+    --thir-color: #605922;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: var(--primary-color);
+}
+
+img {
+    width: auto;
+    height: 60vh;
+}
+
+span {
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 3px;
+}
+
+.data {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.weather {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.data h2,
+.weather h2 {
+    padding: 1rem;
+}
+
+.weather img {
+    width: 10%;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    font-size: 1.23em;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1rem;
+    ;
+}
+
+footer {
+    padding: 3rem;
+    background-color: var(--thir-color);
+    text-align: center;
+    font-size: 1.2rem;
+}
