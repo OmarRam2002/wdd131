@@ -7,3 +7,7 @@ p {
     background-color: rgb(193, 58, 193);
     color: white;
 }
+
+img {
+    width: 25%;
+}
