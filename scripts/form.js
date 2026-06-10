@@ -31,9 +31,10 @@ const products = [
 const productos = document.getElementById("product");
 
 products.forEach(product => {
+    label = document.createElement("label");
     opcion = document.createElement("option");
     opcion.text = product.name.toUpperCase();
     opcion.value = product.id;
-
-    productos.append(opcion)
+    label.append(opcion);
+    productos.append(label)
 });
