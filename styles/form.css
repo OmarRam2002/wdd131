@@ -41,13 +41,15 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-
-    label {
-        justify-items: center;
-        padding-top: 0;
-    }
 }
+
+;
+
+.star label {
+    justify-items: center;
+    padding-top: 0;
+}
+
 
 .ft {
     input[type="checkbox"] {
@@ -55,11 +57,12 @@ textarea {
         width: 20px;
         height: 20px;
     }
-
-    label {
-        padding-top: 5px;
-    }
 }
+
+.ft label {
+    padding-top: 5px;
+}
+
 
 textarea {
     height: 100px;
