@@ -43,7 +43,6 @@ textarea {
     justify-content: space-evenly;
 }
 
-;
 
 .star label {
     justify-items: center;
@@ -51,12 +50,10 @@ textarea {
 }
 
 
-.ft {
-    input[type="checkbox"] {
-        display: inline;
-        width: 20px;
-        height: 20px;
-    }
+.ft input[type="checkbox"] {
+    display: inline;
+    width: 20px;
+    height: 20px;
 }
 
 .ft label {
