@@ -20,17 +20,17 @@
     <main>
         <form method="get" action="review.html" class="prf">
             <label>Product Name
-                <select name="product" id="product" required>
-                    <option value="">Select a Product ...</option>
+                <label><select name="product" id="product" required></label>
+                <option value="" disabled selected>Select a Product ...</option>
                 </select>
             </label>
             <div>Overall Rating</div>
             <div class="star">
-                <label>☆<input type="radio" name="rating" value="one" id="one"></label>
-                <label>☆☆<input type="radio" name="rating" value="one" id="two"></label>
-                <label>☆☆☆<input type="radio" name="rating" value="one" id="three"></label>
-                <label>☆☆☆☆<input type="radio" name="rating" value="one" id="four"></label>
-                <label>☆☆☆☆☆<input type="radio" name="rating" value="one" id="five"></label>
+                <label>☆<input type="radio" name="rating" value="one" id="one" required></label>
+                <label>☆☆<input type="radio" name="rating" value="one" id="two" required></label>
+                <label>☆☆☆<input type="radio" name="rating" value="one" id="three" required></label>
+                <label>☆☆☆☆<input type="radio" name="rating" value="one" id="four" required></label>
+                <label>☆☆☆☆☆<input type="radio" name="rating" value="one" id="five" required></label>
             </div>
             <label>Date of Installation<input type="date" name="dateofinstallation" id="dateofinstallation"
                     required></label>
@@ -39,8 +39,7 @@
             <div class="ft">
                 <label><input type="checkbox" name="durability" value="durability" id="durability"> Durability</label>
                 <label><input type="checkbox" name="easy" value="easy" id="easy"> Ease of Use</label>
-                <label><input type="checkbox" name="performance" value="performance" id="performance">
-                    Perfomance</label>
+                <label><input type="checkbox" name="performance" value="performance" id="performance">Perfomance</label>
                 <label><input type="checkbox" name="desing" value="desing" id="desing"> Desing</label>
             </div>
             <label>Wriiten Review (Optional) <textarea name="wreview" id="wreview"></textarea></label>
