@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Product Review</title>
+    <meta name="description" content="This is a form that a user can fill up to leave a Review">
+    <meta name="author" content="Omar Ramirez">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="prf">
+            <label>Product Name
+                <select name="product" id="product" required>
+                    <option value="">Select a Product ...</option>
+                </select>
+            </label>
+            <div>Overall Rating</div>
+            <div class="star">
+                <label>☆<input type="radio" name="rating" value="one" id="one"></label>
+                <label>☆☆<input type="radio" name="rating" value="one" id="two"></label>
+                <label>☆☆☆<input type="radio" name="rating" value="one" id="three"></label>
+                <label>☆☆☆☆<input type="radio" name="rating" value="one" id="four"></label>
+                <label>☆☆☆☆☆<input type="radio" name="rating" value="one" id="five"></label>
+            </div>
+            <label>Date of Installation<input type="date" name="dateofinstallation" id="dateofinstallation"
+                    required></label>
+            <div>Which features did you find useful in the product?</div>
+            <p>(Check all the apply)</p>
+            <div class="ft">
+                <label><input type="checkbox" name="durability" value="durability" id="durability"> Durability</label>
+                <label><input type="checkbox" name="easy" value="easy" id="easy"> Ease of Use</label>
+                <label><input type="checkbox" name="performance" value="performance" id="performance">
+                    Perfomance</label>
+                <label><input type="checkbox" name="desing" value="desing" id="desing"> Desing</label>
+            </div>
+            <label>Wriiten Review (Optional) <textarea name="wreview" id="wreview"></textarea></label>
+            <label>Your Name (Optional) <input type="text" name="name"></label>
+
+            <input type="submit" value="Post Review">
+        </form>
+    </main>
+    <footer>
+        <p> ©<span id="currentyear"></span> ✎ Omar Ramirez ✎ Guatemala</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+
+</html>

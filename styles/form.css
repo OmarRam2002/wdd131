@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fugaz One", sans-serif;
+
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+.prf {
+    padding: 15px;
+    background-color: #eec9ce78;
+}
+
+.prf input,
+label,
+select,
+textarea {
+    display: block;
+}
+
+.prf label,
+div {
+    padding-top: 15px;
+}
+
+.prf select,
+input[type="date"],
+input[type="submit"],
+input[type="text"],
+textarea {
+    width: 95%;
+    height: 40px;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+    label {
+        justify-items: center;
+        padding-top: 0;
+    }
+}
+
+.ft {
+    input[type="checkbox"] {
+        display: inline;
+        width: 20px;
+        height: 20px;
+    }
+
+    label {
+        padding-top: 5px;
+    }
+}
+
+textarea {
+    height: 100px;
+}
+
+
+
+header {
+    background-color: #FBB7C0;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 0 30px #333;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    background-color: rgba(34, 31, 31, 0.633);
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+footer {
+    padding: 3rem;
+    background-color: #B89685;
+    text-align: center;
+    font-size: 1.2rem;
+}
