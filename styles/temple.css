@@ -15,10 +15,6 @@ header {
     font-size: 2rem;
 }
 
-footer {
-    background-color: #B89685;
-}
-
 span {
     font-weight: bold;
 }
@@ -83,7 +79,7 @@ div {
 
 footer {
     padding-top: 3rem;
-    background-color: B89685;
+    background-color: #B89685;
     text-align: center;
     height: 150px;
 }
