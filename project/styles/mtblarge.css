@@ -33,19 +33,10 @@
 
     /*-------MAIN-------*/
     main {
-        background-image: url(../images/background.webp);
+        background-image: url(../images/mtblargebackground.webp);
     }
 
-    .popular {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin: auto;
-        width: 1000px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 5px;
 
-    }
 
 
     /*-------Secttions-------*/
