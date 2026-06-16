@@ -52,16 +52,10 @@ img {
 /*--------------------MAIN--------------*/
 
 main {
-    background-image: url(../images/mtbbackground.webp);
+    background-image: url(../images/hikingsmall.webp);
     background-size: cover;
 
     color: white;
-}
-
-#miles li {
-    background-color: rgba(255, 255, 255, 0.225);
-    color: black;
-    padding: 1rem;
 }
 
 h1 {
@@ -90,6 +84,7 @@ h1 {
     animation-timing-function: ease-in-out;
 }
 
+/* Individual backgrounds */
 .slc {
     background-color: #07662f8e;
     animation-name: slideAndHideOne;
@@ -100,6 +95,7 @@ h1 {
     animation-name: slideAndHideTwo;
 }
 
+/* --- KEYFRAME ANIMATIONS --- */
 
 
 @keyframes slideAndHideOne {

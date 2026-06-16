@@ -6,6 +6,10 @@
         --third: #CBB37B;
     }
 
+    * {
+        font-size: 100%;
+    }
+
     /*--------Header----------*/
     main {
         background-image: url(../images/mtbbackground.webp);
@@ -36,6 +40,14 @@
         background-image: url(../images/mtblargebackground.webp);
     }
 
+    .mtb {
+        display: block;
+        position: relative;
+        width: 1000px;
+        height: 1000px;
+        overflow: hidden;
+        margin: auto;
+    }
 
 
 

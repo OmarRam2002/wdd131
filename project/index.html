@@ -16,8 +16,8 @@
     <header>
         <img src="images/logo.webp" alt="Explore Utah Logo">
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Moutain Biking</a>
+            <a href="index.html">Home</a>
+            <a href="moutainbiking.html">Moutain Biking</a>
             <a href="#">Hiking</a>
         </nav>
     </header>
@@ -91,6 +91,26 @@
                     width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            <!-------------FORM--------------->
+
+            <form method="get" action="review.html" class="prf">
+                <h1>Review Our Website</h1>
+                <div>Overall Rating</div>
+                <div class="star">
+                    <label>☆<input type="radio" name="rating" value="one" id="one" required></label>
+                    <label>☆☆<input type="radio" name="rating" value="one" id="two" required></label>
+                    <label>☆☆☆<input type="radio" name="rating" value="one" id="three" required></label>
+                    <label>☆☆☆☆<input type="radio" name="rating" value="one" id="four" required></label>
+                    <label>☆☆☆☆☆<input type="radio" name="rating" value="one" id="five" required></label>
+                </div>
+
+                <label>Date of Use<input type="date" name="dateofinstallation" id="dateofinstallation" required></label>
+
+                <label>Wriiten Review (Optional) <textarea name="wreview" id="wreview"></textarea></label>
+                <label>Your Name (Optional) <input type="text" name="name"></label>
+
+                <input type="submit" value="Post Review">
+            </form>
         </div>
     </main>
     <footer>

@@ -1,13 +1,16 @@
 @media screen and (min-width: 1000px) {
 
     :root {
+        --primary-color: #85C4AC;
         --secondary-color: hsla(150, 29%, 35%, 0.863);
+        --third: #CBB37B;
+    }
+
+    * {
+        font-size: 100%;
     }
 
     /*--------Header----------*/
-    main {
-        background-image: url(../images/mtbbackground.webp);
-    }
 
     header img {
         display: inline;
@@ -16,6 +19,8 @@
     nav {
         display: flex;
         justify-content: space-around;
+        padding: 1.5rem;
+        align-items: center;
 
     }
 
@@ -29,19 +34,18 @@
 
     /*-------MAIN-------*/
     main {
-        background-image: url(../images/background.webp);
+        background-image: url(../images/hikinglarge.webp);
     }
 
-    .popular {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin: auto;
+    .mtb {
+        display: block;
+        position: relative;
         width: 1000px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 5px;
-
+        height: 1000px;
+        overflow: hidden;
+        margin: auto;
     }
+
 
 
     /*-------Secttions-------*/
@@ -50,8 +54,7 @@
     }
 
     .iframe {
-        grid-column: 1/2;
-        height: 100%;
+        grid-column: 1/3;
     }
 
     /*-----------Footer---------*/
