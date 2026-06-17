@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/index-large.css">
+    <script src="scripts/exploreutah.js" defer></script>
 </head>
 
 <body>
@@ -18,14 +19,14 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="moutainbiking.html">Moutain Biking</a>
-            <a href="#">Hiking</a>
+            <a href="hikingtrails.html">Hiking</a>
         </nav>
     </header>
     <main>
         <div class="popular">
-            <section>
-                <h1>Popular Trail Hikes</h1>
-                <div class="phikes">
+            <section id="popularhikes">
+                <h1>Popular Traisl Hikes</h1>
+                <div class="phikes ">
                     <div>
                         <h2>Dead Horse State Trial</h2>
                         <p>Moab Utah</p>
@@ -54,7 +55,7 @@
                     <img src="images/antelope.webp" alt="Frary Peak Trail" loading="lazy">
                 </div>
             </section>
-            <section>
+            <section id="popularmtb">
                 <h1>Popular MTB Trails</h1>
                 <div class="phikes">
                     <div>
@@ -93,7 +94,7 @@
             </div>
             <!-------------FORM--------------->
 
-            <form method="get" action="review.html" class="prf">
+            <form method="get" action="../review.html" class="prf">
                 <h1>Review Our Website</h1>
                 <div>Overall Rating</div>
                 <div class="star">

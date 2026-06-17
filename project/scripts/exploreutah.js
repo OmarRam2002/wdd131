@@ -73,8 +73,8 @@ function populatelist(nameoflista, citytrails) {
 
         item.innerHTML = `Trial Name: ${trail.trialName}<br>Difficulty: ${trail.difficulty}<br>Lenght: ${trail.length}`;
         item.style.marginTop = "2rem";
-        item.style.marginLeft = "6rem"
-        item.style.fontSize = "2rem"
+        item.style.marginLeft = "6rem";
+        item.style.fontSize = "2rem";
         document.getElementById(nameoflista).append(item);
     });
 
@@ -83,3 +83,8 @@ function populatelist(nameoflista, citytrails) {
 
 populatelist("slctrails", slctrails);
 populatelist("boutifultrails", boutifultrails);
+
+const popularhikes = document.getElementById("popularhikes");
+popularhikes.addEventListener("click", () => {
+    window.location.href = 'https://omarram2002.github.io/wdd131/project/hikingtrails.html'
+});
